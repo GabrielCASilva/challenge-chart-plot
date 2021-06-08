@@ -1,0 +1,43 @@
+.page{
+    height: 100vh;
+    position: relative;
+}
+
+header{
+    background-color: #DDDEE1;
+    padding: 1px 40px;
+
+}
+
+.code-display > *{
+    background-color: #2E3440;
+    height: 300px;
+    width: 100%;
+    color: #fff;
+}
+
+.chart{
+    width: 70%;
+    height: 400px;
+    padding: 30px;
+
+}
+
+
+footer{
+    position: absolute;
+    bottom: 0;
+    padding: 20px 40px;
+    background-color: #DDDEE1;
+    grid-column: 1;
+    grid-row: 4;
+    width: 100%;
+}
+
+footer button{
+    padding: 13px;
+    color: #fff;
+    background-color: #017EFF;
+    border: none;
+    border-radius: 2px;
+}
